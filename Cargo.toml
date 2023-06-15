@@ -7,6 +7,7 @@ edition = "2021"
 
 [dependencies]
 anyhow = "1.0.71"
+chardetng = "0.1.17"
 clap = { version = "4.3.4", features = ["derive"] }
 encoding_rs = "0.8.32"
 ignore = "0.4.20"
