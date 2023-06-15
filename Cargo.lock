@@ -202,6 +202,20 @@ dependencies = [
 ]
 
 [[package]]
+name = "fenc-rkf"
+version = "0.1.0"
+dependencies = [
+ "anyhow",
+ "chardetng",
+ "clap",
+ "encoding_rs",
+ "encoding_rs_io",
+ "ignore",
+ "termcolor",
+ "thiserror",
+]
+
+[[package]]
 name = "fnv"
 version = "1.0.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -342,20 +356,6 @@ name = "regex-syntax"
 version = "0.7.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "436b050e76ed2903236f032a59761c1eb99e1b0aead2c257922771dab1fc8c78"
-
-[[package]]
-name = "rkf"
-version = "0.1.0"
-dependencies = [
- "anyhow",
- "chardetng",
- "clap",
- "encoding_rs",
- "encoding_rs_io",
- "ignore",
- "termcolor",
- "thiserror",
-]
 
 [[package]]
 name = "rustix"
